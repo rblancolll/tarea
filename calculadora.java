@@ -33,4 +33,10 @@ public class calculadora {
        return multiplicacion;
     }  
     
+    public double dividir(){
+       double division= (double)this.op1 / (double) this.op2;
+       return division;
+    }  
+    
+   
 }
