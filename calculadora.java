@@ -22,7 +22,12 @@ public class calculadora {
        int suma = this.op1 + this.op2;
        return suma;   
      }
-    
+     
+    public int restar(){
+       int resta = this.op1 - this.op2;
+       return resta;
+    } 
+     
     
     
 }
