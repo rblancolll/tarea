@@ -28,6 +28,9 @@ public class calculadora {
        return resta;
     } 
      
-    
+    public int multiplicar(){
+       int multiplicacion = this.op1 * this.op2;
+       return multiplicacion;
+    }  
     
 }
